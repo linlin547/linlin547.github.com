@@ -1,0 +1,24 @@
+.jumbotron {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color:#122b40;
+    color: #c9e2b3;
+}
+.tilte-name {
+    margin-bottom: 20px;
+}
+.boo {
+    float: right !important;
+    margin: 10px 5px;
+}
+img {
+
+    width: 314px;
+    height: 215px;
+}
+.jumbotron {
+    margin-bottom: 0px;
+}
+.col-sm-4 span {
+    font-size: 20px;
+}

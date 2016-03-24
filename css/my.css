@@ -1,3 +1,7 @@
+.row {
+    clear: both;
+}
+
 .jumbotron {
     margin-top: 0px;
     margin-bottom: 0px;
@@ -5,20 +9,92 @@
     color: #c9e2b3;
 }
 .tilte-name {
+    margin-top: 20px;
     margin-bottom: 20px;
 }
 .boo {
-    float: right !important;
-    margin: 10px 5px;
+    /*float: right !important;*/
+    margin: 29px 5px 4px 5px;
 }
 img {
 
     width: 314px;
     height: 215px;
 }
-.jumbotron {
-    margin-bottom: 0px;
-}
+
 .col-sm-4 span {
     font-size: 20px;
 }
+.botoom_text {
+    font-family: Menlo, Monaco, Consolas, "Courier New", monospace;
+    font-size: 10px;
+    color: #c1e2b3;
+    margin: 29px 5px 4px 5px;
+}
+.size_tex {
+    font-family: serif;
+    font-size: 15px;
+    margin: 25px 5px;
+    /*color: ;*/
+}
+.kills {
+    margin-bottom: 15px;
+}
+
+.title_name {
+    margin-top: 20px;
+}
+div .contentx {
+    margin-top: 20px;
+    float: left;
+}
+/*3D球形*/
+#tagbox {
+    position: relative;
+    margin: 0px auto 0px;
+    width: 400px;
+    height: 400px;
+    /*background: #3a4954;*/
+}
+
+#tagbox a {
+    position: absolute;
+    padding: 3px 6px;
+    font-family: Microsoft YaHei;
+    color: #fff;
+    TOP: 0px;
+    font-weight: bold;
+    text-decoration: none;
+    left: 0px
+}
+
+#tagbox a:hover {
+    border: #eee 1px solid;
+    background: darkgray;
+}
+
+#tagbox .blue {
+    color: #269abc;
+}
+
+#tagbox .red {
+    color: peru;
+
+}
+#tagbox .purple {
+    color: purple;
+}
+#tagbox .LR {
+    color: #122b40;
+}
+#tagbox .maroon {
+    color: maroon;
+}
+#tagbox .orangered {
+    color: orangered;
+}
+
+#tagbox .yellow {
+    color: yellow
+}
+/*3D球形结束*/

@@ -1,36 +1,72 @@
-<!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <title>Home page</title>
-    <link rel="stylesheet" href="css/home.css">
+    <title>漂浮广告代码</title>
 </head>
 <body>
-    <!--个人头像-->
-    <div class="title_message">
-        <div class="content">
-            <img id="pic" src="image/WeChat_1458195510.jpg" alt="x">
-            <span>姓名</span>
-            <span>职称</span>
-            <div class="space">
-            </div>
-        </div>
-    </div>
-    <div id="line_one">
-        <div class="line_left">
-            <div class="line_left_con">
-                <h3 class="accent">自我介绍：</h3>
-                <h2>Bootstrap v3.3.5</h2>
-            </div>
-        </div>
-        <div class="line_right">
-            <div class="line_right_con">
-                <h3 class="accent">个人信息：</h3>
-                <h2>Bootstrap v3.3.5</h2>
-            </div>
-        </div>
-
-    </div>
-
+<div id="img" style="position:absolute;z-index=99;">
+    <a href="/">asdasdasdasdsadasdsadas</a>
+</div>
+<script LANGUAGE="JavaScript">
+    <!-- Begin
+    var xPos = document.body.clientWidth-20;
+    var yPos = document.body.clientHeight/2;
+    var step = 1;
+    var delay = 5;
+    var height = 0;
+    var Hoffset = 0;
+    var Woffset = 0;
+    var yon = 0;
+    var xon = 0;
+    var pause = true;
+    var interval;
+    img.style.top = yPos;
+    function changePos() {
+        width = document.body.clientWidth;
+        height = document.body.clientHeight;
+        Hoffset = img.offsetHeight;
+        Woffset = img.offsetWidth;
+        img.style.left = xPos + document.body.scrollLeft;
+        img.style.top = yPos + document.body.scrollTop;
+        if (yon) {
+            yPos = yPos + step;
+        }else {
+            yPos = yPos - step;
+        }
+        if (yPos < 0) {
+            yon = 1;
+            yPos = 0;
+        }
+        if (yPos >= (height - Hoffset)) {
+            yon = 0;
+            yPos = (height - Hoffset);
+        }
+        if (xon) {
+            xPos = xPos + step;
+        }else {
+            xPos = xPos - step;
+        }
+        if (xPos < 0) {
+            xon = 1;
+            xPos = 0;
+        }
+        if (xPos >= (width - Woffset)) {
+            xon = 0;
+            xPos = (width - Woffset);
+        }
+    }
+    function start() {
+        img.visibility = "visible";
+        interval = setInterval('changePos()', delay);
+    }
+    start();
+    img.onmouseover = function() {
+        clearInterval(interval);
+        interval = null;
+    }
+    img.onmouseout = function() {
+        interval = setInterval('changePos()', delay);
+    }
+    //  End -->
+</script>
 </body>
 </html>
